@@ -205,6 +205,8 @@ def raw_data(df):
         else:
             break
     
+    print('-'*40) #print a boarder after this block of code is executed.
+    
 def main():
     while True:
         city, month, day = get_filters()
